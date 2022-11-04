@@ -1,0 +1,8 @@
+.TaskLista{
+    height: 70%;
+    width: 30%;
+    display: flex;
+    flex-direction: column;
+    background-color: rgba(251, 250, 250, 0.73);
+    box-shadow: rgba(255, 255, 255, 0.838) 0px 0px 25px 25px;
+}
