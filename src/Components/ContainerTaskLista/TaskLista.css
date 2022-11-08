@@ -1,8 +1,31 @@
 .TaskLista{
-    height: 70%;
-    width: 30%;
+    height: 60%;
+    width: 25%;
     display: flex;
     flex-direction: column;
     background-color: rgba(251, 250, 250, 0.73);
     box-shadow: rgba(255, 255, 255, 0.838) 0px 0px 25px 25px;
+}
+.ContainerTareaPorHacer{
+    height: 50%;
+    display: flex;
+    flex-direction: column;
+    overflow-y: scroll;
+}
+.EliminarTodo_Container{
+    width: 100%;
+    height: 50%;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+.EliminarTodo{
+    height: 40px;
+    width: 80px;
+    border: none;
+    border-radius: 50px;
+    background-color: rgb(6, 216, 248);
+    color: rgb(255, 0, 0);
+    cursor: pointer;
+    font-size: 15px;
 }
