@@ -1,9 +1,10 @@
 .Container-Tareas {
-    height: 10%;
+    height: auto;
     width: 100%;
     display: flex;
     align-items: center;
     justify-content: center;
+    flex-direction: column;
 }
 
 .Tarea {
@@ -22,8 +23,26 @@
     align-items: center;
     justify-content: center;
     flex-direction: row;
+    font-size: 25px;
+    margin: 5px;
 }
-
+.EditorDeTarea{
+    border: none;
+    color: rgb(0, 0, 0);
+    font-size: 15px;
+    height: 20px;
+    width: 150px;
+    border: none;
+    box-shadow: rgb(147, 147, 146) 5px 5px 5px 5px;
+}
+.EditorDeTarea:hover{
+    font-size: 20px;
+    height: 30px;
+    width: 200px;
+    border-radius: 50px;
+    border: none;
+    color: rgb(0, 208, 255);
+}
 .BotonesDelet {
     height: 25px;
     width: 25px;
@@ -61,6 +80,11 @@
     outline: none;
     cursor: pointer;
 }
-.Marcador-Tareas:checked {
-    background-color: #33ff05;
+
+#Nuevo-marcador{ 
+    text-decoration: line-through;
 }
+.Marcador-Tareas:checked {
+    background-color: #fe0606;
+}
+
